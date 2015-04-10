@@ -1,0 +1,2 @@
+Initial state: topa0 topbb topcc 0on1 1on2 2on3 3ona
+Goal state: topaa topbb topc0 0on1 1on2 2on3 3onc

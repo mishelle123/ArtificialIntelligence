@@ -1,0 +1,27 @@
+Propositions:
+0Ata 0Atb 0Atc cl0 0OnFloor aEmpty bEmpty cEmpty 
+Actions:
+Name: 0OnFloorabFloor
+pre: 0OnFloor cl0 bEmpty 0Ata
+add: aEmpty 0Atb
+delete: bEmpty 0Ata
+Name: 0OnFlooracFloor
+pre: 0OnFloor cl0 cEmpty 0Ata
+add: aEmpty 0Atc
+delete: cEmpty 0Ata
+Name: 0OnFloorbaFloor
+pre: 0OnFloor cl0 aEmpty 0Atb
+add: bEmpty 0Ata
+delete: aEmpty 0Atb
+Name: 0OnFloorbcFloor
+pre: 0OnFloor cl0 cEmpty 0Atb
+add: bEmpty 0Atc
+delete: cEmpty 0Atb
+Name: 0OnFloorcaFloor
+pre: 0OnFloor cl0 aEmpty 0Atc
+add: cEmpty 0Ata
+delete: aEmpty 0Atc
+Name: 0OnFloorcbFloor
+pre: 0OnFloor cl0 bEmpty 0Atc
+add: cEmpty 0Atb
+delete: bEmpty 0Atc

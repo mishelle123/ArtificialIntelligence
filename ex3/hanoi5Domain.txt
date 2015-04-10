@@ -1,0 +1,1083 @@
+Propositions:
+0Ata 0Atb 0Atc 1Ata 1Atb 1Atc 2Ata 2Atb 2Atc 3Ata 3Atb 3Atc 4Ata 4Atb 4Atc cl0 cl1 cl2 cl3 cl4 0On1 0On2 0On3 0On4 0OnFloor 1On2 1On3 1On4 1OnFloor 2On3 2On4 2OnFloor 3On4 3OnFloor 4OnFloor aEmpty bEmpty cEmpty 
+Actions:
+Name: 0On2ab1
+pre: 0On2 cl0 cl1 0Ata 2Ata 1Atb
+add: 0On1 cl2 0Atb
+delete: 0On2 cl1 0Ata
+Name: 0On3ab1
+pre: 0On3 cl0 cl1 0Ata 3Ata 1Atb
+add: 0On1 cl3 0Atb
+delete: 0On3 cl1 0Ata
+Name: 0On4ab1
+pre: 0On4 cl0 cl1 0Ata 4Ata 1Atb
+add: 0On1 cl4 0Atb
+delete: 0On4 cl1 0Ata
+Name: 0On1ab2
+pre: 0On1 cl0 cl2 0Ata 1Ata 2Atb
+add: 0On2 cl1 0Atb
+delete: 0On1 cl2 0Ata
+Name: 0On3ab2
+pre: 0On3 cl0 cl2 0Ata 3Ata 2Atb
+add: 0On2 cl3 0Atb
+delete: 0On3 cl2 0Ata
+Name: 0On4ab2
+pre: 0On4 cl0 cl2 0Ata 4Ata 2Atb
+add: 0On2 cl4 0Atb
+delete: 0On4 cl2 0Ata
+Name: 0On1ab3
+pre: 0On1 cl0 cl3 0Ata 1Ata 3Atb
+add: 0On3 cl1 0Atb
+delete: 0On1 cl3 0Ata
+Name: 0On2ab3
+pre: 0On2 cl0 cl3 0Ata 2Ata 3Atb
+add: 0On3 cl2 0Atb
+delete: 0On2 cl3 0Ata
+Name: 0On4ab3
+pre: 0On4 cl0 cl3 0Ata 4Ata 3Atb
+add: 0On3 cl4 0Atb
+delete: 0On4 cl3 0Ata
+Name: 0On1ab4
+pre: 0On1 cl0 cl4 0Ata 1Ata 4Atb
+add: 0On4 cl1 0Atb
+delete: 0On1 cl4 0Ata
+Name: 0On2ab4
+pre: 0On2 cl0 cl4 0Ata 2Ata 4Atb
+add: 0On4 cl2 0Atb
+delete: 0On2 cl4 0Ata
+Name: 0On3ab4
+pre: 0On3 cl0 cl4 0Ata 3Ata 4Atb
+add: 0On4 cl3 0Atb
+delete: 0On3 cl4 0Ata
+Name: 1On3ab2
+pre: 1On3 cl1 cl2 1Ata 3Ata 2Atb
+add: 1On2 cl3 1Atb
+delete: 1On3 cl2 1Ata
+Name: 1On4ab2
+pre: 1On4 cl1 cl2 1Ata 4Ata 2Atb
+add: 1On2 cl4 1Atb
+delete: 1On4 cl2 1Ata
+Name: 1On2ab3
+pre: 1On2 cl1 cl3 1Ata 2Ata 3Atb
+add: 1On3 cl2 1Atb
+delete: 1On2 cl3 1Ata
+Name: 1On4ab3
+pre: 1On4 cl1 cl3 1Ata 4Ata 3Atb
+add: 1On3 cl4 1Atb
+delete: 1On4 cl3 1Ata
+Name: 1On2ab4
+pre: 1On2 cl1 cl4 1Ata 2Ata 4Atb
+add: 1On4 cl2 1Atb
+delete: 1On2 cl4 1Ata
+Name: 1On3ab4
+pre: 1On3 cl1 cl4 1Ata 3Ata 4Atb
+add: 1On4 cl3 1Atb
+delete: 1On3 cl4 1Ata
+Name: 2On4ab3
+pre: 2On4 cl2 cl3 2Ata 4Ata 3Atb
+add: 2On3 cl4 2Atb
+delete: 2On4 cl3 2Ata
+Name: 2On3ab4
+pre: 2On3 cl2 cl4 2Ata 3Ata 4Atb
+add: 2On4 cl3 2Atb
+delete: 2On3 cl4 2Ata
+Name: 0On1abFloor
+pre: 0On1 cl0 bEmpty 0Ata 1Ata
+add: 0OnFloor cl1 0Atb
+delete: 0On1 bEmpty 0Ata
+Name: 0On2abFloor
+pre: 0On2 cl0 bEmpty 0Ata 2Ata
+add: 0OnFloor cl2 0Atb
+delete: 0On2 bEmpty 0Ata
+Name: 0On3abFloor
+pre: 0On3 cl0 bEmpty 0Ata 3Ata
+add: 0OnFloor cl3 0Atb
+delete: 0On3 bEmpty 0Ata
+Name: 0On4abFloor
+pre: 0On4 cl0 bEmpty 0Ata 4Ata
+add: 0OnFloor cl4 0Atb
+delete: 0On4 bEmpty 0Ata
+Name: 1On2abFloor
+pre: 1On2 cl1 bEmpty 1Ata 2Ata
+add: 1OnFloor cl2 1Atb
+delete: 1On2 bEmpty 1Ata
+Name: 1On3abFloor
+pre: 1On3 cl1 bEmpty 1Ata 3Ata
+add: 1OnFloor cl3 1Atb
+delete: 1On3 bEmpty 1Ata
+Name: 1On4abFloor
+pre: 1On4 cl1 bEmpty 1Ata 4Ata
+add: 1OnFloor cl4 1Atb
+delete: 1On4 bEmpty 1Ata
+Name: 2On3abFloor
+pre: 2On3 cl2 bEmpty 2Ata 3Ata
+add: 2OnFloor cl3 2Atb
+delete: 2On3 bEmpty 2Ata
+Name: 2On4abFloor
+pre: 2On4 cl2 bEmpty 2Ata 4Ata
+add: 2OnFloor cl4 2Atb
+delete: 2On4 bEmpty 2Ata
+Name: 3On4abFloor
+pre: 3On4 cl3 bEmpty 3Ata 4Ata
+add: 3OnFloor cl4 3Atb
+delete: 3On4 bEmpty 3Ata
+Name: 0OnFloorab1
+pre: 0OnFloor cl0 cl1 0Ata 1Atb
+add: 0On1 aEmpty 0Atb
+delete: 0OnFloor cl1 0Ata
+Name: 0OnFloorab2
+pre: 0OnFloor cl0 cl2 0Ata 2Atb
+add: 0On2 aEmpty 0Atb
+delete: 0OnFloor cl2 0Ata
+Name: 0OnFloorab3
+pre: 0OnFloor cl0 cl3 0Ata 3Atb
+add: 0On3 aEmpty 0Atb
+delete: 0OnFloor cl3 0Ata
+Name: 0OnFloorab4
+pre: 0OnFloor cl0 cl4 0Ata 4Atb
+add: 0On4 aEmpty 0Atb
+delete: 0OnFloor cl4 0Ata
+Name: 1OnFloorab2
+pre: 1OnFloor cl1 cl2 1Ata 2Atb
+add: 1On2 aEmpty 1Atb
+delete: 1OnFloor cl2 1Ata
+Name: 1OnFloorab3
+pre: 1OnFloor cl1 cl3 1Ata 3Atb
+add: 1On3 aEmpty 1Atb
+delete: 1OnFloor cl3 1Ata
+Name: 1OnFloorab4
+pre: 1OnFloor cl1 cl4 1Ata 4Atb
+add: 1On4 aEmpty 1Atb
+delete: 1OnFloor cl4 1Ata
+Name: 2OnFloorab3
+pre: 2OnFloor cl2 cl3 2Ata 3Atb
+add: 2On3 aEmpty 2Atb
+delete: 2OnFloor cl3 2Ata
+Name: 2OnFloorab4
+pre: 2OnFloor cl2 cl4 2Ata 4Atb
+add: 2On4 aEmpty 2Atb
+delete: 2OnFloor cl4 2Ata
+Name: 3OnFloorab4
+pre: 3OnFloor cl3 cl4 3Ata 4Atb
+add: 3On4 aEmpty 3Atb
+delete: 3OnFloor cl4 3Ata
+Name: 0OnFloorabFloor
+pre: 0OnFloor cl0 bEmpty 0Ata
+add: aEmpty 0Atb
+delete: bEmpty 0Ata
+Name: 1OnFloorabFloor
+pre: 1OnFloor cl1 bEmpty 1Ata
+add: aEmpty 1Atb
+delete: bEmpty 1Ata
+Name: 2OnFloorabFloor
+pre: 2OnFloor cl2 bEmpty 2Ata
+add: aEmpty 2Atb
+delete: bEmpty 2Ata
+Name: 3OnFloorabFloor
+pre: 3OnFloor cl3 bEmpty 3Ata
+add: aEmpty 3Atb
+delete: bEmpty 3Ata
+Name: 4OnFloorabFloor
+pre: 4OnFloor cl4 bEmpty 4Ata
+add: aEmpty 4Atb
+delete: bEmpty 4Ata
+Name: 0On2ac1
+pre: 0On2 cl0 cl1 0Ata 2Ata 1Atc
+add: 0On1 cl2 0Atc
+delete: 0On2 cl1 0Ata
+Name: 0On3ac1
+pre: 0On3 cl0 cl1 0Ata 3Ata 1Atc
+add: 0On1 cl3 0Atc
+delete: 0On3 cl1 0Ata
+Name: 0On4ac1
+pre: 0On4 cl0 cl1 0Ata 4Ata 1Atc
+add: 0On1 cl4 0Atc
+delete: 0On4 cl1 0Ata
+Name: 0On1ac2
+pre: 0On1 cl0 cl2 0Ata 1Ata 2Atc
+add: 0On2 cl1 0Atc
+delete: 0On1 cl2 0Ata
+Name: 0On3ac2
+pre: 0On3 cl0 cl2 0Ata 3Ata 2Atc
+add: 0On2 cl3 0Atc
+delete: 0On3 cl2 0Ata
+Name: 0On4ac2
+pre: 0On4 cl0 cl2 0Ata 4Ata 2Atc
+add: 0On2 cl4 0Atc
+delete: 0On4 cl2 0Ata
+Name: 0On1ac3
+pre: 0On1 cl0 cl3 0Ata 1Ata 3Atc
+add: 0On3 cl1 0Atc
+delete: 0On1 cl3 0Ata
+Name: 0On2ac3
+pre: 0On2 cl0 cl3 0Ata 2Ata 3Atc
+add: 0On3 cl2 0Atc
+delete: 0On2 cl3 0Ata
+Name: 0On4ac3
+pre: 0On4 cl0 cl3 0Ata 4Ata 3Atc
+add: 0On3 cl4 0Atc
+delete: 0On4 cl3 0Ata
+Name: 0On1ac4
+pre: 0On1 cl0 cl4 0Ata 1Ata 4Atc
+add: 0On4 cl1 0Atc
+delete: 0On1 cl4 0Ata
+Name: 0On2ac4
+pre: 0On2 cl0 cl4 0Ata 2Ata 4Atc
+add: 0On4 cl2 0Atc
+delete: 0On2 cl4 0Ata
+Name: 0On3ac4
+pre: 0On3 cl0 cl4 0Ata 3Ata 4Atc
+add: 0On4 cl3 0Atc
+delete: 0On3 cl4 0Ata
+Name: 1On3ac2
+pre: 1On3 cl1 cl2 1Ata 3Ata 2Atc
+add: 1On2 cl3 1Atc
+delete: 1On3 cl2 1Ata
+Name: 1On4ac2
+pre: 1On4 cl1 cl2 1Ata 4Ata 2Atc
+add: 1On2 cl4 1Atc
+delete: 1On4 cl2 1Ata
+Name: 1On2ac3
+pre: 1On2 cl1 cl3 1Ata 2Ata 3Atc
+add: 1On3 cl2 1Atc
+delete: 1On2 cl3 1Ata
+Name: 1On4ac3
+pre: 1On4 cl1 cl3 1Ata 4Ata 3Atc
+add: 1On3 cl4 1Atc
+delete: 1On4 cl3 1Ata
+Name: 1On2ac4
+pre: 1On2 cl1 cl4 1Ata 2Ata 4Atc
+add: 1On4 cl2 1Atc
+delete: 1On2 cl4 1Ata
+Name: 1On3ac4
+pre: 1On3 cl1 cl4 1Ata 3Ata 4Atc
+add: 1On4 cl3 1Atc
+delete: 1On3 cl4 1Ata
+Name: 2On4ac3
+pre: 2On4 cl2 cl3 2Ata 4Ata 3Atc
+add: 2On3 cl4 2Atc
+delete: 2On4 cl3 2Ata
+Name: 2On3ac4
+pre: 2On3 cl2 cl4 2Ata 3Ata 4Atc
+add: 2On4 cl3 2Atc
+delete: 2On3 cl4 2Ata
+Name: 0On1acFloor
+pre: 0On1 cl0 cEmpty 0Ata 1Ata
+add: 0OnFloor cl1 0Atc
+delete: 0On1 cEmpty 0Ata
+Name: 0On2acFloor
+pre: 0On2 cl0 cEmpty 0Ata 2Ata
+add: 0OnFloor cl2 0Atc
+delete: 0On2 cEmpty 0Ata
+Name: 0On3acFloor
+pre: 0On3 cl0 cEmpty 0Ata 3Ata
+add: 0OnFloor cl3 0Atc
+delete: 0On3 cEmpty 0Ata
+Name: 0On4acFloor
+pre: 0On4 cl0 cEmpty 0Ata 4Ata
+add: 0OnFloor cl4 0Atc
+delete: 0On4 cEmpty 0Ata
+Name: 1On2acFloor
+pre: 1On2 cl1 cEmpty 1Ata 2Ata
+add: 1OnFloor cl2 1Atc
+delete: 1On2 cEmpty 1Ata
+Name: 1On3acFloor
+pre: 1On3 cl1 cEmpty 1Ata 3Ata
+add: 1OnFloor cl3 1Atc
+delete: 1On3 cEmpty 1Ata
+Name: 1On4acFloor
+pre: 1On4 cl1 cEmpty 1Ata 4Ata
+add: 1OnFloor cl4 1Atc
+delete: 1On4 cEmpty 1Ata
+Name: 2On3acFloor
+pre: 2On3 cl2 cEmpty 2Ata 3Ata
+add: 2OnFloor cl3 2Atc
+delete: 2On3 cEmpty 2Ata
+Name: 2On4acFloor
+pre: 2On4 cl2 cEmpty 2Ata 4Ata
+add: 2OnFloor cl4 2Atc
+delete: 2On4 cEmpty 2Ata
+Name: 3On4acFloor
+pre: 3On4 cl3 cEmpty 3Ata 4Ata
+add: 3OnFloor cl4 3Atc
+delete: 3On4 cEmpty 3Ata
+Name: 0OnFloorac1
+pre: 0OnFloor cl0 cl1 0Ata 1Atc
+add: 0On1 aEmpty 0Atc
+delete: 0OnFloor cl1 0Ata
+Name: 0OnFloorac2
+pre: 0OnFloor cl0 cl2 0Ata 2Atc
+add: 0On2 aEmpty 0Atc
+delete: 0OnFloor cl2 0Ata
+Name: 0OnFloorac3
+pre: 0OnFloor cl0 cl3 0Ata 3Atc
+add: 0On3 aEmpty 0Atc
+delete: 0OnFloor cl3 0Ata
+Name: 0OnFloorac4
+pre: 0OnFloor cl0 cl4 0Ata 4Atc
+add: 0On4 aEmpty 0Atc
+delete: 0OnFloor cl4 0Ata
+Name: 1OnFloorac2
+pre: 1OnFloor cl1 cl2 1Ata 2Atc
+add: 1On2 aEmpty 1Atc
+delete: 1OnFloor cl2 1Ata
+Name: 1OnFloorac3
+pre: 1OnFloor cl1 cl3 1Ata 3Atc
+add: 1On3 aEmpty 1Atc
+delete: 1OnFloor cl3 1Ata
+Name: 1OnFloorac4
+pre: 1OnFloor cl1 cl4 1Ata 4Atc
+add: 1On4 aEmpty 1Atc
+delete: 1OnFloor cl4 1Ata
+Name: 2OnFloorac3
+pre: 2OnFloor cl2 cl3 2Ata 3Atc
+add: 2On3 aEmpty 2Atc
+delete: 2OnFloor cl3 2Ata
+Name: 2OnFloorac4
+pre: 2OnFloor cl2 cl4 2Ata 4Atc
+add: 2On4 aEmpty 2Atc
+delete: 2OnFloor cl4 2Ata
+Name: 3OnFloorac4
+pre: 3OnFloor cl3 cl4 3Ata 4Atc
+add: 3On4 aEmpty 3Atc
+delete: 3OnFloor cl4 3Ata
+Name: 0OnFlooracFloor
+pre: 0OnFloor cl0 cEmpty 0Ata
+add: aEmpty 0Atc
+delete: cEmpty 0Ata
+Name: 1OnFlooracFloor
+pre: 1OnFloor cl1 cEmpty 1Ata
+add: aEmpty 1Atc
+delete: cEmpty 1Ata
+Name: 2OnFlooracFloor
+pre: 2OnFloor cl2 cEmpty 2Ata
+add: aEmpty 2Atc
+delete: cEmpty 2Ata
+Name: 3OnFlooracFloor
+pre: 3OnFloor cl3 cEmpty 3Ata
+add: aEmpty 3Atc
+delete: cEmpty 3Ata
+Name: 4OnFlooracFloor
+pre: 4OnFloor cl4 cEmpty 4Ata
+add: aEmpty 4Atc
+delete: cEmpty 4Ata
+Name: 0On2ba1
+pre: 0On2 cl0 cl1 0Atb 2Atb 1Ata
+add: 0On1 cl2 0Ata
+delete: 0On2 cl1 0Atb
+Name: 0On3ba1
+pre: 0On3 cl0 cl1 0Atb 3Atb 1Ata
+add: 0On1 cl3 0Ata
+delete: 0On3 cl1 0Atb
+Name: 0On4ba1
+pre: 0On4 cl0 cl1 0Atb 4Atb 1Ata
+add: 0On1 cl4 0Ata
+delete: 0On4 cl1 0Atb
+Name: 0On1ba2
+pre: 0On1 cl0 cl2 0Atb 1Atb 2Ata
+add: 0On2 cl1 0Ata
+delete: 0On1 cl2 0Atb
+Name: 0On3ba2
+pre: 0On3 cl0 cl2 0Atb 3Atb 2Ata
+add: 0On2 cl3 0Ata
+delete: 0On3 cl2 0Atb
+Name: 0On4ba2
+pre: 0On4 cl0 cl2 0Atb 4Atb 2Ata
+add: 0On2 cl4 0Ata
+delete: 0On4 cl2 0Atb
+Name: 0On1ba3
+pre: 0On1 cl0 cl3 0Atb 1Atb 3Ata
+add: 0On3 cl1 0Ata
+delete: 0On1 cl3 0Atb
+Name: 0On2ba3
+pre: 0On2 cl0 cl3 0Atb 2Atb 3Ata
+add: 0On3 cl2 0Ata
+delete: 0On2 cl3 0Atb
+Name: 0On4ba3
+pre: 0On4 cl0 cl3 0Atb 4Atb 3Ata
+add: 0On3 cl4 0Ata
+delete: 0On4 cl3 0Atb
+Name: 0On1ba4
+pre: 0On1 cl0 cl4 0Atb 1Atb 4Ata
+add: 0On4 cl1 0Ata
+delete: 0On1 cl4 0Atb
+Name: 0On2ba4
+pre: 0On2 cl0 cl4 0Atb 2Atb 4Ata
+add: 0On4 cl2 0Ata
+delete: 0On2 cl4 0Atb
+Name: 0On3ba4
+pre: 0On3 cl0 cl4 0Atb 3Atb 4Ata
+add: 0On4 cl3 0Ata
+delete: 0On3 cl4 0Atb
+Name: 1On3ba2
+pre: 1On3 cl1 cl2 1Atb 3Atb 2Ata
+add: 1On2 cl3 1Ata
+delete: 1On3 cl2 1Atb
+Name: 1On4ba2
+pre: 1On4 cl1 cl2 1Atb 4Atb 2Ata
+add: 1On2 cl4 1Ata
+delete: 1On4 cl2 1Atb
+Name: 1On2ba3
+pre: 1On2 cl1 cl3 1Atb 2Atb 3Ata
+add: 1On3 cl2 1Ata
+delete: 1On2 cl3 1Atb
+Name: 1On4ba3
+pre: 1On4 cl1 cl3 1Atb 4Atb 3Ata
+add: 1On3 cl4 1Ata
+delete: 1On4 cl3 1Atb
+Name: 1On2ba4
+pre: 1On2 cl1 cl4 1Atb 2Atb 4Ata
+add: 1On4 cl2 1Ata
+delete: 1On2 cl4 1Atb
+Name: 1On3ba4
+pre: 1On3 cl1 cl4 1Atb 3Atb 4Ata
+add: 1On4 cl3 1Ata
+delete: 1On3 cl4 1Atb
+Name: 2On4ba3
+pre: 2On4 cl2 cl3 2Atb 4Atb 3Ata
+add: 2On3 cl4 2Ata
+delete: 2On4 cl3 2Atb
+Name: 2On3ba4
+pre: 2On3 cl2 cl4 2Atb 3Atb 4Ata
+add: 2On4 cl3 2Ata
+delete: 2On3 cl4 2Atb
+Name: 0On1baFloor
+pre: 0On1 cl0 aEmpty 0Atb 1Atb
+add: 0OnFloor cl1 0Ata
+delete: 0On1 aEmpty 0Atb
+Name: 0On2baFloor
+pre: 0On2 cl0 aEmpty 0Atb 2Atb
+add: 0OnFloor cl2 0Ata
+delete: 0On2 aEmpty 0Atb
+Name: 0On3baFloor
+pre: 0On3 cl0 aEmpty 0Atb 3Atb
+add: 0OnFloor cl3 0Ata
+delete: 0On3 aEmpty 0Atb
+Name: 0On4baFloor
+pre: 0On4 cl0 aEmpty 0Atb 4Atb
+add: 0OnFloor cl4 0Ata
+delete: 0On4 aEmpty 0Atb
+Name: 1On2baFloor
+pre: 1On2 cl1 aEmpty 1Atb 2Atb
+add: 1OnFloor cl2 1Ata
+delete: 1On2 aEmpty 1Atb
+Name: 1On3baFloor
+pre: 1On3 cl1 aEmpty 1Atb 3Atb
+add: 1OnFloor cl3 1Ata
+delete: 1On3 aEmpty 1Atb
+Name: 1On4baFloor
+pre: 1On4 cl1 aEmpty 1Atb 4Atb
+add: 1OnFloor cl4 1Ata
+delete: 1On4 aEmpty 1Atb
+Name: 2On3baFloor
+pre: 2On3 cl2 aEmpty 2Atb 3Atb
+add: 2OnFloor cl3 2Ata
+delete: 2On3 aEmpty 2Atb
+Name: 2On4baFloor
+pre: 2On4 cl2 aEmpty 2Atb 4Atb
+add: 2OnFloor cl4 2Ata
+delete: 2On4 aEmpty 2Atb
+Name: 3On4baFloor
+pre: 3On4 cl3 aEmpty 3Atb 4Atb
+add: 3OnFloor cl4 3Ata
+delete: 3On4 aEmpty 3Atb
+Name: 0OnFloorba1
+pre: 0OnFloor cl0 cl1 0Atb 1Ata
+add: 0On1 bEmpty 0Ata
+delete: 0OnFloor cl1 0Atb
+Name: 0OnFloorba2
+pre: 0OnFloor cl0 cl2 0Atb 2Ata
+add: 0On2 bEmpty 0Ata
+delete: 0OnFloor cl2 0Atb
+Name: 0OnFloorba3
+pre: 0OnFloor cl0 cl3 0Atb 3Ata
+add: 0On3 bEmpty 0Ata
+delete: 0OnFloor cl3 0Atb
+Name: 0OnFloorba4
+pre: 0OnFloor cl0 cl4 0Atb 4Ata
+add: 0On4 bEmpty 0Ata
+delete: 0OnFloor cl4 0Atb
+Name: 1OnFloorba2
+pre: 1OnFloor cl1 cl2 1Atb 2Ata
+add: 1On2 bEmpty 1Ata
+delete: 1OnFloor cl2 1Atb
+Name: 1OnFloorba3
+pre: 1OnFloor cl1 cl3 1Atb 3Ata
+add: 1On3 bEmpty 1Ata
+delete: 1OnFloor cl3 1Atb
+Name: 1OnFloorba4
+pre: 1OnFloor cl1 cl4 1Atb 4Ata
+add: 1On4 bEmpty 1Ata
+delete: 1OnFloor cl4 1Atb
+Name: 2OnFloorba3
+pre: 2OnFloor cl2 cl3 2Atb 3Ata
+add: 2On3 bEmpty 2Ata
+delete: 2OnFloor cl3 2Atb
+Name: 2OnFloorba4
+pre: 2OnFloor cl2 cl4 2Atb 4Ata
+add: 2On4 bEmpty 2Ata
+delete: 2OnFloor cl4 2Atb
+Name: 3OnFloorba4
+pre: 3OnFloor cl3 cl4 3Atb 4Ata
+add: 3On4 bEmpty 3Ata
+delete: 3OnFloor cl4 3Atb
+Name: 0OnFloorbaFloor
+pre: 0OnFloor cl0 aEmpty 0Atb
+add: bEmpty 0Ata
+delete: aEmpty 0Atb
+Name: 1OnFloorbaFloor
+pre: 1OnFloor cl1 aEmpty 1Atb
+add: bEmpty 1Ata
+delete: aEmpty 1Atb
+Name: 2OnFloorbaFloor
+pre: 2OnFloor cl2 aEmpty 2Atb
+add: bEmpty 2Ata
+delete: aEmpty 2Atb
+Name: 3OnFloorbaFloor
+pre: 3OnFloor cl3 aEmpty 3Atb
+add: bEmpty 3Ata
+delete: aEmpty 3Atb
+Name: 4OnFloorbaFloor
+pre: 4OnFloor cl4 aEmpty 4Atb
+add: bEmpty 4Ata
+delete: aEmpty 4Atb
+Name: 0On2bc1
+pre: 0On2 cl0 cl1 0Atb 2Atb 1Atc
+add: 0On1 cl2 0Atc
+delete: 0On2 cl1 0Atb
+Name: 0On3bc1
+pre: 0On3 cl0 cl1 0Atb 3Atb 1Atc
+add: 0On1 cl3 0Atc
+delete: 0On3 cl1 0Atb
+Name: 0On4bc1
+pre: 0On4 cl0 cl1 0Atb 4Atb 1Atc
+add: 0On1 cl4 0Atc
+delete: 0On4 cl1 0Atb
+Name: 0On1bc2
+pre: 0On1 cl0 cl2 0Atb 1Atb 2Atc
+add: 0On2 cl1 0Atc
+delete: 0On1 cl2 0Atb
+Name: 0On3bc2
+pre: 0On3 cl0 cl2 0Atb 3Atb 2Atc
+add: 0On2 cl3 0Atc
+delete: 0On3 cl2 0Atb
+Name: 0On4bc2
+pre: 0On4 cl0 cl2 0Atb 4Atb 2Atc
+add: 0On2 cl4 0Atc
+delete: 0On4 cl2 0Atb
+Name: 0On1bc3
+pre: 0On1 cl0 cl3 0Atb 1Atb 3Atc
+add: 0On3 cl1 0Atc
+delete: 0On1 cl3 0Atb
+Name: 0On2bc3
+pre: 0On2 cl0 cl3 0Atb 2Atb 3Atc
+add: 0On3 cl2 0Atc
+delete: 0On2 cl3 0Atb
+Name: 0On4bc3
+pre: 0On4 cl0 cl3 0Atb 4Atb 3Atc
+add: 0On3 cl4 0Atc
+delete: 0On4 cl3 0Atb
+Name: 0On1bc4
+pre: 0On1 cl0 cl4 0Atb 1Atb 4Atc
+add: 0On4 cl1 0Atc
+delete: 0On1 cl4 0Atb
+Name: 0On2bc4
+pre: 0On2 cl0 cl4 0Atb 2Atb 4Atc
+add: 0On4 cl2 0Atc
+delete: 0On2 cl4 0Atb
+Name: 0On3bc4
+pre: 0On3 cl0 cl4 0Atb 3Atb 4Atc
+add: 0On4 cl3 0Atc
+delete: 0On3 cl4 0Atb
+Name: 1On3bc2
+pre: 1On3 cl1 cl2 1Atb 3Atb 2Atc
+add: 1On2 cl3 1Atc
+delete: 1On3 cl2 1Atb
+Name: 1On4bc2
+pre: 1On4 cl1 cl2 1Atb 4Atb 2Atc
+add: 1On2 cl4 1Atc
+delete: 1On4 cl2 1Atb
+Name: 1On2bc3
+pre: 1On2 cl1 cl3 1Atb 2Atb 3Atc
+add: 1On3 cl2 1Atc
+delete: 1On2 cl3 1Atb
+Name: 1On4bc3
+pre: 1On4 cl1 cl3 1Atb 4Atb 3Atc
+add: 1On3 cl4 1Atc
+delete: 1On4 cl3 1Atb
+Name: 1On2bc4
+pre: 1On2 cl1 cl4 1Atb 2Atb 4Atc
+add: 1On4 cl2 1Atc
+delete: 1On2 cl4 1Atb
+Name: 1On3bc4
+pre: 1On3 cl1 cl4 1Atb 3Atb 4Atc
+add: 1On4 cl3 1Atc
+delete: 1On3 cl4 1Atb
+Name: 2On4bc3
+pre: 2On4 cl2 cl3 2Atb 4Atb 3Atc
+add: 2On3 cl4 2Atc
+delete: 2On4 cl3 2Atb
+Name: 2On3bc4
+pre: 2On3 cl2 cl4 2Atb 3Atb 4Atc
+add: 2On4 cl3 2Atc
+delete: 2On3 cl4 2Atb
+Name: 0On1bcFloor
+pre: 0On1 cl0 cEmpty 0Atb 1Atb
+add: 0OnFloor cl1 0Atc
+delete: 0On1 cEmpty 0Atb
+Name: 0On2bcFloor
+pre: 0On2 cl0 cEmpty 0Atb 2Atb
+add: 0OnFloor cl2 0Atc
+delete: 0On2 cEmpty 0Atb
+Name: 0On3bcFloor
+pre: 0On3 cl0 cEmpty 0Atb 3Atb
+add: 0OnFloor cl3 0Atc
+delete: 0On3 cEmpty 0Atb
+Name: 0On4bcFloor
+pre: 0On4 cl0 cEmpty 0Atb 4Atb
+add: 0OnFloor cl4 0Atc
+delete: 0On4 cEmpty 0Atb
+Name: 1On2bcFloor
+pre: 1On2 cl1 cEmpty 1Atb 2Atb
+add: 1OnFloor cl2 1Atc
+delete: 1On2 cEmpty 1Atb
+Name: 1On3bcFloor
+pre: 1On3 cl1 cEmpty 1Atb 3Atb
+add: 1OnFloor cl3 1Atc
+delete: 1On3 cEmpty 1Atb
+Name: 1On4bcFloor
+pre: 1On4 cl1 cEmpty 1Atb 4Atb
+add: 1OnFloor cl4 1Atc
+delete: 1On4 cEmpty 1Atb
+Name: 2On3bcFloor
+pre: 2On3 cl2 cEmpty 2Atb 3Atb
+add: 2OnFloor cl3 2Atc
+delete: 2On3 cEmpty 2Atb
+Name: 2On4bcFloor
+pre: 2On4 cl2 cEmpty 2Atb 4Atb
+add: 2OnFloor cl4 2Atc
+delete: 2On4 cEmpty 2Atb
+Name: 3On4bcFloor
+pre: 3On4 cl3 cEmpty 3Atb 4Atb
+add: 3OnFloor cl4 3Atc
+delete: 3On4 cEmpty 3Atb
+Name: 0OnFloorbc1
+pre: 0OnFloor cl0 cl1 0Atb 1Atc
+add: 0On1 bEmpty 0Atc
+delete: 0OnFloor cl1 0Atb
+Name: 0OnFloorbc2
+pre: 0OnFloor cl0 cl2 0Atb 2Atc
+add: 0On2 bEmpty 0Atc
+delete: 0OnFloor cl2 0Atb
+Name: 0OnFloorbc3
+pre: 0OnFloor cl0 cl3 0Atb 3Atc
+add: 0On3 bEmpty 0Atc
+delete: 0OnFloor cl3 0Atb
+Name: 0OnFloorbc4
+pre: 0OnFloor cl0 cl4 0Atb 4Atc
+add: 0On4 bEmpty 0Atc
+delete: 0OnFloor cl4 0Atb
+Name: 1OnFloorbc2
+pre: 1OnFloor cl1 cl2 1Atb 2Atc
+add: 1On2 bEmpty 1Atc
+delete: 1OnFloor cl2 1Atb
+Name: 1OnFloorbc3
+pre: 1OnFloor cl1 cl3 1Atb 3Atc
+add: 1On3 bEmpty 1Atc
+delete: 1OnFloor cl3 1Atb
+Name: 1OnFloorbc4
+pre: 1OnFloor cl1 cl4 1Atb 4Atc
+add: 1On4 bEmpty 1Atc
+delete: 1OnFloor cl4 1Atb
+Name: 2OnFloorbc3
+pre: 2OnFloor cl2 cl3 2Atb 3Atc
+add: 2On3 bEmpty 2Atc
+delete: 2OnFloor cl3 2Atb
+Name: 2OnFloorbc4
+pre: 2OnFloor cl2 cl4 2Atb 4Atc
+add: 2On4 bEmpty 2Atc
+delete: 2OnFloor cl4 2Atb
+Name: 3OnFloorbc4
+pre: 3OnFloor cl3 cl4 3Atb 4Atc
+add: 3On4 bEmpty 3Atc
+delete: 3OnFloor cl4 3Atb
+Name: 0OnFloorbcFloor
+pre: 0OnFloor cl0 cEmpty 0Atb
+add: bEmpty 0Atc
+delete: cEmpty 0Atb
+Name: 1OnFloorbcFloor
+pre: 1OnFloor cl1 cEmpty 1Atb
+add: bEmpty 1Atc
+delete: cEmpty 1Atb
+Name: 2OnFloorbcFloor
+pre: 2OnFloor cl2 cEmpty 2Atb
+add: bEmpty 2Atc
+delete: cEmpty 2Atb
+Name: 3OnFloorbcFloor
+pre: 3OnFloor cl3 cEmpty 3Atb
+add: bEmpty 3Atc
+delete: cEmpty 3Atb
+Name: 4OnFloorbcFloor
+pre: 4OnFloor cl4 cEmpty 4Atb
+add: bEmpty 4Atc
+delete: cEmpty 4Atb
+Name: 0On2ca1
+pre: 0On2 cl0 cl1 0Atc 2Atc 1Ata
+add: 0On1 cl2 0Ata
+delete: 0On2 cl1 0Atc
+Name: 0On3ca1
+pre: 0On3 cl0 cl1 0Atc 3Atc 1Ata
+add: 0On1 cl3 0Ata
+delete: 0On3 cl1 0Atc
+Name: 0On4ca1
+pre: 0On4 cl0 cl1 0Atc 4Atc 1Ata
+add: 0On1 cl4 0Ata
+delete: 0On4 cl1 0Atc
+Name: 0On1ca2
+pre: 0On1 cl0 cl2 0Atc 1Atc 2Ata
+add: 0On2 cl1 0Ata
+delete: 0On1 cl2 0Atc
+Name: 0On3ca2
+pre: 0On3 cl0 cl2 0Atc 3Atc 2Ata
+add: 0On2 cl3 0Ata
+delete: 0On3 cl2 0Atc
+Name: 0On4ca2
+pre: 0On4 cl0 cl2 0Atc 4Atc 2Ata
+add: 0On2 cl4 0Ata
+delete: 0On4 cl2 0Atc
+Name: 0On1ca3
+pre: 0On1 cl0 cl3 0Atc 1Atc 3Ata
+add: 0On3 cl1 0Ata
+delete: 0On1 cl3 0Atc
+Name: 0On2ca3
+pre: 0On2 cl0 cl3 0Atc 2Atc 3Ata
+add: 0On3 cl2 0Ata
+delete: 0On2 cl3 0Atc
+Name: 0On4ca3
+pre: 0On4 cl0 cl3 0Atc 4Atc 3Ata
+add: 0On3 cl4 0Ata
+delete: 0On4 cl3 0Atc
+Name: 0On1ca4
+pre: 0On1 cl0 cl4 0Atc 1Atc 4Ata
+add: 0On4 cl1 0Ata
+delete: 0On1 cl4 0Atc
+Name: 0On2ca4
+pre: 0On2 cl0 cl4 0Atc 2Atc 4Ata
+add: 0On4 cl2 0Ata
+delete: 0On2 cl4 0Atc
+Name: 0On3ca4
+pre: 0On3 cl0 cl4 0Atc 3Atc 4Ata
+add: 0On4 cl3 0Ata
+delete: 0On3 cl4 0Atc
+Name: 1On3ca2
+pre: 1On3 cl1 cl2 1Atc 3Atc 2Ata
+add: 1On2 cl3 1Ata
+delete: 1On3 cl2 1Atc
+Name: 1On4ca2
+pre: 1On4 cl1 cl2 1Atc 4Atc 2Ata
+add: 1On2 cl4 1Ata
+delete: 1On4 cl2 1Atc
+Name: 1On2ca3
+pre: 1On2 cl1 cl3 1Atc 2Atc 3Ata
+add: 1On3 cl2 1Ata
+delete: 1On2 cl3 1Atc
+Name: 1On4ca3
+pre: 1On4 cl1 cl3 1Atc 4Atc 3Ata
+add: 1On3 cl4 1Ata
+delete: 1On4 cl3 1Atc
+Name: 1On2ca4
+pre: 1On2 cl1 cl4 1Atc 2Atc 4Ata
+add: 1On4 cl2 1Ata
+delete: 1On2 cl4 1Atc
+Name: 1On3ca4
+pre: 1On3 cl1 cl4 1Atc 3Atc 4Ata
+add: 1On4 cl3 1Ata
+delete: 1On3 cl4 1Atc
+Name: 2On4ca3
+pre: 2On4 cl2 cl3 2Atc 4Atc 3Ata
+add: 2On3 cl4 2Ata
+delete: 2On4 cl3 2Atc
+Name: 2On3ca4
+pre: 2On3 cl2 cl4 2Atc 3Atc 4Ata
+add: 2On4 cl3 2Ata
+delete: 2On3 cl4 2Atc
+Name: 0On1caFloor
+pre: 0On1 cl0 aEmpty 0Atc 1Atc
+add: 0OnFloor cl1 0Ata
+delete: 0On1 aEmpty 0Atc
+Name: 0On2caFloor
+pre: 0On2 cl0 aEmpty 0Atc 2Atc
+add: 0OnFloor cl2 0Ata
+delete: 0On2 aEmpty 0Atc
+Name: 0On3caFloor
+pre: 0On3 cl0 aEmpty 0Atc 3Atc
+add: 0OnFloor cl3 0Ata
+delete: 0On3 aEmpty 0Atc
+Name: 0On4caFloor
+pre: 0On4 cl0 aEmpty 0Atc 4Atc
+add: 0OnFloor cl4 0Ata
+delete: 0On4 aEmpty 0Atc
+Name: 1On2caFloor
+pre: 1On2 cl1 aEmpty 1Atc 2Atc
+add: 1OnFloor cl2 1Ata
+delete: 1On2 aEmpty 1Atc
+Name: 1On3caFloor
+pre: 1On3 cl1 aEmpty 1Atc 3Atc
+add: 1OnFloor cl3 1Ata
+delete: 1On3 aEmpty 1Atc
+Name: 1On4caFloor
+pre: 1On4 cl1 aEmpty 1Atc 4Atc
+add: 1OnFloor cl4 1Ata
+delete: 1On4 aEmpty 1Atc
+Name: 2On3caFloor
+pre: 2On3 cl2 aEmpty 2Atc 3Atc
+add: 2OnFloor cl3 2Ata
+delete: 2On3 aEmpty 2Atc
+Name: 2On4caFloor
+pre: 2On4 cl2 aEmpty 2Atc 4Atc
+add: 2OnFloor cl4 2Ata
+delete: 2On4 aEmpty 2Atc
+Name: 3On4caFloor
+pre: 3On4 cl3 aEmpty 3Atc 4Atc
+add: 3OnFloor cl4 3Ata
+delete: 3On4 aEmpty 3Atc
+Name: 0OnFloorca1
+pre: 0OnFloor cl0 cl1 0Atc 1Ata
+add: 0On1 cEmpty 0Ata
+delete: 0OnFloor cl1 0Atc
+Name: 0OnFloorca2
+pre: 0OnFloor cl0 cl2 0Atc 2Ata
+add: 0On2 cEmpty 0Ata
+delete: 0OnFloor cl2 0Atc
+Name: 0OnFloorca3
+pre: 0OnFloor cl0 cl3 0Atc 3Ata
+add: 0On3 cEmpty 0Ata
+delete: 0OnFloor cl3 0Atc
+Name: 0OnFloorca4
+pre: 0OnFloor cl0 cl4 0Atc 4Ata
+add: 0On4 cEmpty 0Ata
+delete: 0OnFloor cl4 0Atc
+Name: 1OnFloorca2
+pre: 1OnFloor cl1 cl2 1Atc 2Ata
+add: 1On2 cEmpty 1Ata
+delete: 1OnFloor cl2 1Atc
+Name: 1OnFloorca3
+pre: 1OnFloor cl1 cl3 1Atc 3Ata
+add: 1On3 cEmpty 1Ata
+delete: 1OnFloor cl3 1Atc
+Name: 1OnFloorca4
+pre: 1OnFloor cl1 cl4 1Atc 4Ata
+add: 1On4 cEmpty 1Ata
+delete: 1OnFloor cl4 1Atc
+Name: 2OnFloorca3
+pre: 2OnFloor cl2 cl3 2Atc 3Ata
+add: 2On3 cEmpty 2Ata
+delete: 2OnFloor cl3 2Atc
+Name: 2OnFloorca4
+pre: 2OnFloor cl2 cl4 2Atc 4Ata
+add: 2On4 cEmpty 2Ata
+delete: 2OnFloor cl4 2Atc
+Name: 3OnFloorca4
+pre: 3OnFloor cl3 cl4 3Atc 4Ata
+add: 3On4 cEmpty 3Ata
+delete: 3OnFloor cl4 3Atc
+Name: 0OnFloorcaFloor
+pre: 0OnFloor cl0 aEmpty 0Atc
+add: cEmpty 0Ata
+delete: aEmpty 0Atc
+Name: 1OnFloorcaFloor
+pre: 1OnFloor cl1 aEmpty 1Atc
+add: cEmpty 1Ata
+delete: aEmpty 1Atc
+Name: 2OnFloorcaFloor
+pre: 2OnFloor cl2 aEmpty 2Atc
+add: cEmpty 2Ata
+delete: aEmpty 2Atc
+Name: 3OnFloorcaFloor
+pre: 3OnFloor cl3 aEmpty 3Atc
+add: cEmpty 3Ata
+delete: aEmpty 3Atc
+Name: 4OnFloorcaFloor
+pre: 4OnFloor cl4 aEmpty 4Atc
+add: cEmpty 4Ata
+delete: aEmpty 4Atc
+Name: 0On2cb1
+pre: 0On2 cl0 cl1 0Atc 2Atc 1Atb
+add: 0On1 cl2 0Atb
+delete: 0On2 cl1 0Atc
+Name: 0On3cb1
+pre: 0On3 cl0 cl1 0Atc 3Atc 1Atb
+add: 0On1 cl3 0Atb
+delete: 0On3 cl1 0Atc
+Name: 0On4cb1
+pre: 0On4 cl0 cl1 0Atc 4Atc 1Atb
+add: 0On1 cl4 0Atb
+delete: 0On4 cl1 0Atc
+Name: 0On1cb2
+pre: 0On1 cl0 cl2 0Atc 1Atc 2Atb
+add: 0On2 cl1 0Atb
+delete: 0On1 cl2 0Atc
+Name: 0On3cb2
+pre: 0On3 cl0 cl2 0Atc 3Atc 2Atb
+add: 0On2 cl3 0Atb
+delete: 0On3 cl2 0Atc
+Name: 0On4cb2
+pre: 0On4 cl0 cl2 0Atc 4Atc 2Atb
+add: 0On2 cl4 0Atb
+delete: 0On4 cl2 0Atc
+Name: 0On1cb3
+pre: 0On1 cl0 cl3 0Atc 1Atc 3Atb
+add: 0On3 cl1 0Atb
+delete: 0On1 cl3 0Atc
+Name: 0On2cb3
+pre: 0On2 cl0 cl3 0Atc 2Atc 3Atb
+add: 0On3 cl2 0Atb
+delete: 0On2 cl3 0Atc
+Name: 0On4cb3
+pre: 0On4 cl0 cl3 0Atc 4Atc 3Atb
+add: 0On3 cl4 0Atb
+delete: 0On4 cl3 0Atc
+Name: 0On1cb4
+pre: 0On1 cl0 cl4 0Atc 1Atc 4Atb
+add: 0On4 cl1 0Atb
+delete: 0On1 cl4 0Atc
+Name: 0On2cb4
+pre: 0On2 cl0 cl4 0Atc 2Atc 4Atb
+add: 0On4 cl2 0Atb
+delete: 0On2 cl4 0Atc
+Name: 0On3cb4
+pre: 0On3 cl0 cl4 0Atc 3Atc 4Atb
+add: 0On4 cl3 0Atb
+delete: 0On3 cl4 0Atc
+Name: 1On3cb2
+pre: 1On3 cl1 cl2 1Atc 3Atc 2Atb
+add: 1On2 cl3 1Atb
+delete: 1On3 cl2 1Atc
+Name: 1On4cb2
+pre: 1On4 cl1 cl2 1Atc 4Atc 2Atb
+add: 1On2 cl4 1Atb
+delete: 1On4 cl2 1Atc
+Name: 1On2cb3
+pre: 1On2 cl1 cl3 1Atc 2Atc 3Atb
+add: 1On3 cl2 1Atb
+delete: 1On2 cl3 1Atc
+Name: 1On4cb3
+pre: 1On4 cl1 cl3 1Atc 4Atc 3Atb
+add: 1On3 cl4 1Atb
+delete: 1On4 cl3 1Atc
+Name: 1On2cb4
+pre: 1On2 cl1 cl4 1Atc 2Atc 4Atb
+add: 1On4 cl2 1Atb
+delete: 1On2 cl4 1Atc
+Name: 1On3cb4
+pre: 1On3 cl1 cl4 1Atc 3Atc 4Atb
+add: 1On4 cl3 1Atb
+delete: 1On3 cl4 1Atc
+Name: 2On4cb3
+pre: 2On4 cl2 cl3 2Atc 4Atc 3Atb
+add: 2On3 cl4 2Atb
+delete: 2On4 cl3 2Atc
+Name: 2On3cb4
+pre: 2On3 cl2 cl4 2Atc 3Atc 4Atb
+add: 2On4 cl3 2Atb
+delete: 2On3 cl4 2Atc
+Name: 0On1cbFloor
+pre: 0On1 cl0 bEmpty 0Atc 1Atc
+add: 0OnFloor cl1 0Atb
+delete: 0On1 bEmpty 0Atc
+Name: 0On2cbFloor
+pre: 0On2 cl0 bEmpty 0Atc 2Atc
+add: 0OnFloor cl2 0Atb
+delete: 0On2 bEmpty 0Atc
+Name: 0On3cbFloor
+pre: 0On3 cl0 bEmpty 0Atc 3Atc
+add: 0OnFloor cl3 0Atb
+delete: 0On3 bEmpty 0Atc
+Name: 0On4cbFloor
+pre: 0On4 cl0 bEmpty 0Atc 4Atc
+add: 0OnFloor cl4 0Atb
+delete: 0On4 bEmpty 0Atc
+Name: 1On2cbFloor
+pre: 1On2 cl1 bEmpty 1Atc 2Atc
+add: 1OnFloor cl2 1Atb
+delete: 1On2 bEmpty 1Atc
+Name: 1On3cbFloor
+pre: 1On3 cl1 bEmpty 1Atc 3Atc
+add: 1OnFloor cl3 1Atb
+delete: 1On3 bEmpty 1Atc
+Name: 1On4cbFloor
+pre: 1On4 cl1 bEmpty 1Atc 4Atc
+add: 1OnFloor cl4 1Atb
+delete: 1On4 bEmpty 1Atc
+Name: 2On3cbFloor
+pre: 2On3 cl2 bEmpty 2Atc 3Atc
+add: 2OnFloor cl3 2Atb
+delete: 2On3 bEmpty 2Atc
+Name: 2On4cbFloor
+pre: 2On4 cl2 bEmpty 2Atc 4Atc
+add: 2OnFloor cl4 2Atb
+delete: 2On4 bEmpty 2Atc
+Name: 3On4cbFloor
+pre: 3On4 cl3 bEmpty 3Atc 4Atc
+add: 3OnFloor cl4 3Atb
+delete: 3On4 bEmpty 3Atc
+Name: 0OnFloorcb1
+pre: 0OnFloor cl0 cl1 0Atc 1Atb
+add: 0On1 cEmpty 0Atb
+delete: 0OnFloor cl1 0Atc
+Name: 0OnFloorcb2
+pre: 0OnFloor cl0 cl2 0Atc 2Atb
+add: 0On2 cEmpty 0Atb
+delete: 0OnFloor cl2 0Atc
+Name: 0OnFloorcb3
+pre: 0OnFloor cl0 cl3 0Atc 3Atb
+add: 0On3 cEmpty 0Atb
+delete: 0OnFloor cl3 0Atc
+Name: 0OnFloorcb4
+pre: 0OnFloor cl0 cl4 0Atc 4Atb
+add: 0On4 cEmpty 0Atb
+delete: 0OnFloor cl4 0Atc
+Name: 1OnFloorcb2
+pre: 1OnFloor cl1 cl2 1Atc 2Atb
+add: 1On2 cEmpty 1Atb
+delete: 1OnFloor cl2 1Atc
+Name: 1OnFloorcb3
+pre: 1OnFloor cl1 cl3 1Atc 3Atb
+add: 1On3 cEmpty 1Atb
+delete: 1OnFloor cl3 1Atc
+Name: 1OnFloorcb4
+pre: 1OnFloor cl1 cl4 1Atc 4Atb
+add: 1On4 cEmpty 1Atb
+delete: 1OnFloor cl4 1Atc
+Name: 2OnFloorcb3
+pre: 2OnFloor cl2 cl3 2Atc 3Atb
+add: 2On3 cEmpty 2Atb
+delete: 2OnFloor cl3 2Atc
+Name: 2OnFloorcb4
+pre: 2OnFloor cl2 cl4 2Atc 4Atb
+add: 2On4 cEmpty 2Atb
+delete: 2OnFloor cl4 2Atc
+Name: 3OnFloorcb4
+pre: 3OnFloor cl3 cl4 3Atc 4Atb
+add: 3On4 cEmpty 3Atb
+delete: 3OnFloor cl4 3Atc
+Name: 0OnFloorcbFloor
+pre: 0OnFloor cl0 bEmpty 0Atc
+add: cEmpty 0Atb
+delete: bEmpty 0Atc
+Name: 1OnFloorcbFloor
+pre: 1OnFloor cl1 bEmpty 1Atc
+add: cEmpty 1Atb
+delete: bEmpty 1Atc
+Name: 2OnFloorcbFloor
+pre: 2OnFloor cl2 bEmpty 2Atc
+add: cEmpty 2Atb
+delete: bEmpty 2Atc
+Name: 3OnFloorcbFloor
+pre: 3OnFloor cl3 bEmpty 3Atc
+add: cEmpty 3Atb
+delete: bEmpty 3Atc
+Name: 4OnFloorcbFloor
+pre: 4OnFloor cl4 bEmpty 4Atc
+add: cEmpty 4Atb
+delete: bEmpty 4Atc

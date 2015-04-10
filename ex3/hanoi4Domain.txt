@@ -1,0 +1,579 @@
+Propositions:
+0on1 0on2 0on3 0ona 0onb 0onc 1on2 1on3 1ona 1onb 1onc 2on3 2ona 2onb 2onc 3ona 3onb 3onc topa0 topa1 topa2 topa3 topaa topb0 topb1 topb2 topb3 topbb topc0 topc1 topc2 topc3 topcc
+Actions:
+Name: Ma0_1_b2
+pre: topa0 topb2 0on1
+add: topa1 topb0 0on2
+delete: topa0 topb2 0on1
+Name: Ma0_1_b3
+pre: topa0 topb3 0on1
+add: topa1 topb0 0on3
+delete: topa0 topb3 0on1
+Name: Ma0_1_bb
+pre: topa0 topbb 0on1
+add: topa1 topb0 0onb
+delete: topa0 topbb 0on1
+Name: Ma0_2_b1
+pre: topa0 topb1 0on2
+add: topa2 topb0 0on1
+delete: topa0 topb1 0on2
+Name: Ma0_2_b3
+pre: topa0 topb3 0on2
+add: topa2 topb0 0on3
+delete: topa0 topb3 0on2
+Name: Ma0_2_bb
+pre: topa0 topbb 0on2
+add: topa2 topb0 0onb
+delete: topa0 topbb 0on2
+Name: Ma0_3_b1
+pre: topa0 topb1 0on3
+add: topa3 topb0 0on1
+delete: topa0 topb1 0on3
+Name: Ma0_3_b2
+pre: topa0 topb2 0on3
+add: topa3 topb0 0on2
+delete: topa0 topb2 0on3
+Name: Ma0_3_bb
+pre: topa0 topbb 0on3
+add: topa3 topb0 0onb
+delete: topa0 topbb 0on3
+Name: Ma0_a_b1
+pre: topa0 topb1 0ona
+add: topaa topb0 0on1
+delete: topa0 topb1 0ona
+Name: Ma0_a_b2
+pre: topa0 topb2 0ona
+add: topaa topb0 0on2
+delete: topa0 topb2 0ona
+Name: Ma0_a_b3
+pre: topa0 topb3 0ona
+add: topaa topb0 0on3
+delete: topa0 topb3 0ona
+Name: Ma0_a_bb
+pre: topa0 topbb 0ona
+add: topaa topb0 0onb
+delete: topa0 topbb 0ona
+Name: Ma1_2_b3
+pre: topa1 topb3 1on2
+add: topa2 topb1 1on3
+delete: topa1 topb3 1on2
+Name: Ma1_2_bb
+pre: topa1 topbb 1on2
+add: topa2 topb1 1onb
+delete: topa1 topbb 1on2
+Name: Ma1_3_b2
+pre: topa1 topb2 1on3
+add: topa3 topb1 1on2
+delete: topa1 topb2 1on3
+Name: Ma1_3_bb
+pre: topa1 topbb 1on3
+add: topa3 topb1 1onb
+delete: topa1 topbb 1on3
+Name: Ma1_a_b2
+pre: topa1 topb2 1ona
+add: topaa topb1 1on2
+delete: topa1 topb2 1ona
+Name: Ma1_a_b3
+pre: topa1 topb3 1ona
+add: topaa topb1 1on3
+delete: topa1 topb3 1ona
+Name: Ma1_a_bb
+pre: topa1 topbb 1ona
+add: topaa topb1 1onb
+delete: topa1 topbb 1ona
+Name: Ma2_3_bb
+pre: topa2 topbb 2on3
+add: topa3 topb2 2onb
+delete: topa2 topbb 2on3
+Name: Ma2_a_b3
+pre: topa2 topb3 2ona
+add: topaa topb2 2on3
+delete: topa2 topb3 2ona
+Name: Ma2_a_bb
+pre: topa2 topbb 2ona
+add: topaa topb2 2onb
+delete: topa2 topbb 2ona
+Name: Ma3_a_bb
+pre: topa3 topbb 3ona
+add: topaa topb3 3onb
+delete: topa3 topbb 3ona
+Name: Ma0_1_c2
+pre: topa0 topc2 0on1
+add: topa1 topc0 0on2
+delete: topa0 topc2 0on1
+Name: Ma0_1_c3
+pre: topa0 topc3 0on1
+add: topa1 topc0 0on3
+delete: topa0 topc3 0on1
+Name: Ma0_1_cc
+pre: topa0 topcc 0on1
+add: topa1 topc0 0onc
+delete: topa0 topcc 0on1
+Name: Ma0_2_c1
+pre: topa0 topc1 0on2
+add: topa2 topc0 0on1
+delete: topa0 topc1 0on2
+Name: Ma0_2_c3
+pre: topa0 topc3 0on2
+add: topa2 topc0 0on3
+delete: topa0 topc3 0on2
+Name: Ma0_2_cc
+pre: topa0 topcc 0on2
+add: topa2 topc0 0onc
+delete: topa0 topcc 0on2
+Name: Ma0_3_c1
+pre: topa0 topc1 0on3
+add: topa3 topc0 0on1
+delete: topa0 topc1 0on3
+Name: Ma0_3_c2
+pre: topa0 topc2 0on3
+add: topa3 topc0 0on2
+delete: topa0 topc2 0on3
+Name: Ma0_3_cc
+pre: topa0 topcc 0on3
+add: topa3 topc0 0onc
+delete: topa0 topcc 0on3
+Name: Ma0_a_c1
+pre: topa0 topc1 0ona
+add: topaa topc0 0on1
+delete: topa0 topc1 0ona
+Name: Ma0_a_c2
+pre: topa0 topc2 0ona
+add: topaa topc0 0on2
+delete: topa0 topc2 0ona
+Name: Ma0_a_c3
+pre: topa0 topc3 0ona
+add: topaa topc0 0on3
+delete: topa0 topc3 0ona
+Name: Ma0_a_cc
+pre: topa0 topcc 0ona
+add: topaa topc0 0onc
+delete: topa0 topcc 0ona
+Name: Ma1_2_c3
+pre: topa1 topc3 1on2
+add: topa2 topc1 1on3
+delete: topa1 topc3 1on2
+Name: Ma1_2_cc
+pre: topa1 topcc 1on2
+add: topa2 topc1 1onc
+delete: topa1 topcc 1on2
+Name: Ma1_3_c2
+pre: topa1 topc2 1on3
+add: topa3 topc1 1on2
+delete: topa1 topc2 1on3
+Name: Ma1_3_cc
+pre: topa1 topcc 1on3
+add: topa3 topc1 1onc
+delete: topa1 topcc 1on3
+Name: Ma1_a_c2
+pre: topa1 topc2 1ona
+add: topaa topc1 1on2
+delete: topa1 topc2 1ona
+Name: Ma1_a_c3
+pre: topa1 topc3 1ona
+add: topaa topc1 1on3
+delete: topa1 topc3 1ona
+Name: Ma1_a_cc
+pre: topa1 topcc 1ona
+add: topaa topc1 1onc
+delete: topa1 topcc 1ona
+Name: Ma2_3_cc
+pre: topa2 topcc 2on3
+add: topa3 topc2 2onc
+delete: topa2 topcc 2on3
+Name: Ma2_a_c3
+pre: topa2 topc3 2ona
+add: topaa topc2 2on3
+delete: topa2 topc3 2ona
+Name: Ma2_a_cc
+pre: topa2 topcc 2ona
+add: topaa topc2 2onc
+delete: topa2 topcc 2ona
+Name: Ma3_a_cc
+pre: topa3 topcc 3ona
+add: topaa topc3 3onc
+delete: topa3 topcc 3ona
+Name: Mb0_1_a2
+pre: topb0 topa2 0on1
+add: topb1 topa0 0on2
+delete: topb0 topa2 0on1
+Name: Mb0_1_a3
+pre: topb0 topa3 0on1
+add: topb1 topa0 0on3
+delete: topb0 topa3 0on1
+Name: Mb0_1_aa
+pre: topb0 topaa 0on1
+add: topb1 topa0 0ona
+delete: topb0 topaa 0on1
+Name: Mb0_2_a1
+pre: topb0 topa1 0on2
+add: topb2 topa0 0on1
+delete: topb0 topa1 0on2
+Name: Mb0_2_a3
+pre: topb0 topa3 0on2
+add: topb2 topa0 0on3
+delete: topb0 topa3 0on2
+Name: Mb0_2_aa
+pre: topb0 topaa 0on2
+add: topb2 topa0 0ona
+delete: topb0 topaa 0on2
+Name: Mb0_3_a1
+pre: topb0 topa1 0on3
+add: topb3 topa0 0on1
+delete: topb0 topa1 0on3
+Name: Mb0_3_a2
+pre: topb0 topa2 0on3
+add: topb3 topa0 0on2
+delete: topb0 topa2 0on3
+Name: Mb0_3_aa
+pre: topb0 topaa 0on3
+add: topb3 topa0 0ona
+delete: topb0 topaa 0on3
+Name: Mb0_b_a1
+pre: topb0 topa1 0onb
+add: topbb topa0 0on1
+delete: topb0 topa1 0onb
+Name: Mb0_b_a2
+pre: topb0 topa2 0onb
+add: topbb topa0 0on2
+delete: topb0 topa2 0onb
+Name: Mb0_b_a3
+pre: topb0 topa3 0onb
+add: topbb topa0 0on3
+delete: topb0 topa3 0onb
+Name: Mb0_b_aa
+pre: topb0 topaa 0onb
+add: topbb topa0 0ona
+delete: topb0 topaa 0onb
+Name: Mb1_2_a3
+pre: topb1 topa3 1on2
+add: topb2 topa1 1on3
+delete: topb1 topa3 1on2
+Name: Mb1_2_aa
+pre: topb1 topaa 1on2
+add: topb2 topa1 1ona
+delete: topb1 topaa 1on2
+Name: Mb1_3_a2
+pre: topb1 topa2 1on3
+add: topb3 topa1 1on2
+delete: topb1 topa2 1on3
+Name: Mb1_3_aa
+pre: topb1 topaa 1on3
+add: topb3 topa1 1ona
+delete: topb1 topaa 1on3
+Name: Mb1_b_a2
+pre: topb1 topa2 1onb
+add: topbb topa1 1on2
+delete: topb1 topa2 1onb
+Name: Mb1_b_a3
+pre: topb1 topa3 1onb
+add: topbb topa1 1on3
+delete: topb1 topa3 1onb
+Name: Mb1_b_aa
+pre: topb1 topaa 1onb
+add: topbb topa1 1ona
+delete: topb1 topaa 1onb
+Name: Mb2_3_aa
+pre: topb2 topaa 2on3
+add: topb3 topa2 2ona
+delete: topb2 topaa 2on3
+Name: Mb2_b_a3
+pre: topb2 topa3 2onb
+add: topbb topa2 2on3
+delete: topb2 topa3 2onb
+Name: Mb2_b_aa
+pre: topb2 topaa 2onb
+add: topbb topa2 2ona
+delete: topb2 topaa 2onb
+Name: Mb3_b_aa
+pre: topb3 topaa 3onb
+add: topbb topa3 3ona
+delete: topb3 topaa 3onb
+Name: Mb0_1_c2
+pre: topb0 topc2 0on1
+add: topb1 topc0 0on2
+delete: topb0 topc2 0on1
+Name: Mb0_1_c3
+pre: topb0 topc3 0on1
+add: topb1 topc0 0on3
+delete: topb0 topc3 0on1
+Name: Mb0_1_cc
+pre: topb0 topcc 0on1
+add: topb1 topc0 0onc
+delete: topb0 topcc 0on1
+Name: Mb0_2_c1
+pre: topb0 topc1 0on2
+add: topb2 topc0 0on1
+delete: topb0 topc1 0on2
+Name: Mb0_2_c3
+pre: topb0 topc3 0on2
+add: topb2 topc0 0on3
+delete: topb0 topc3 0on2
+Name: Mb0_2_cc
+pre: topb0 topcc 0on2
+add: topb2 topc0 0onc
+delete: topb0 topcc 0on2
+Name: Mb0_3_c1
+pre: topb0 topc1 0on3
+add: topb3 topc0 0on1
+delete: topb0 topc1 0on3
+Name: Mb0_3_c2
+pre: topb0 topc2 0on3
+add: topb3 topc0 0on2
+delete: topb0 topc2 0on3
+Name: Mb0_3_cc
+pre: topb0 topcc 0on3
+add: topb3 topc0 0onc
+delete: topb0 topcc 0on3
+Name: Mb0_b_c1
+pre: topb0 topc1 0onb
+add: topbb topc0 0on1
+delete: topb0 topc1 0onb
+Name: Mb0_b_c2
+pre: topb0 topc2 0onb
+add: topbb topc0 0on2
+delete: topb0 topc2 0onb
+Name: Mb0_b_c3
+pre: topb0 topc3 0onb
+add: topbb topc0 0on3
+delete: topb0 topc3 0onb
+Name: Mb0_b_cc
+pre: topb0 topcc 0onb
+add: topbb topc0 0onc
+delete: topb0 topcc 0onb
+Name: Mb1_2_c3
+pre: topb1 topc3 1on2
+add: topb2 topc1 1on3
+delete: topb1 topc3 1on2
+Name: Mb1_2_cc
+pre: topb1 topcc 1on2
+add: topb2 topc1 1onc
+delete: topb1 topcc 1on2
+Name: Mb1_3_c2
+pre: topb1 topc2 1on3
+add: topb3 topc1 1on2
+delete: topb1 topc2 1on3
+Name: Mb1_3_cc
+pre: topb1 topcc 1on3
+add: topb3 topc1 1onc
+delete: topb1 topcc 1on3
+Name: Mb1_b_c2
+pre: topb1 topc2 1onb
+add: topbb topc1 1on2
+delete: topb1 topc2 1onb
+Name: Mb1_b_c3
+pre: topb1 topc3 1onb
+add: topbb topc1 1on3
+delete: topb1 topc3 1onb
+Name: Mb1_b_cc
+pre: topb1 topcc 1onb
+add: topbb topc1 1onc
+delete: topb1 topcc 1onb
+Name: Mb2_3_cc
+pre: topb2 topcc 2on3
+add: topb3 topc2 2onc
+delete: topb2 topcc 2on3
+Name: Mb2_b_c3
+pre: topb2 topc3 2onb
+add: topbb topc2 2on3
+delete: topb2 topc3 2onb
+Name: Mb2_b_cc
+pre: topb2 topcc 2onb
+add: topbb topc2 2onc
+delete: topb2 topcc 2onb
+Name: Mb3_b_cc
+pre: topb3 topcc 3onb
+add: topbb topc3 3onc
+delete: topb3 topcc 3onb
+Name: Mc0_1_a2
+pre: topc0 topa2 0on1
+add: topc1 topa0 0on2
+delete: topc0 topa2 0on1
+Name: Mc0_1_a3
+pre: topc0 topa3 0on1
+add: topc1 topa0 0on3
+delete: topc0 topa3 0on1
+Name: Mc0_1_aa
+pre: topc0 topaa 0on1
+add: topc1 topa0 0ona
+delete: topc0 topaa 0on1
+Name: Mc0_2_a1
+pre: topc0 topa1 0on2
+add: topc2 topa0 0on1
+delete: topc0 topa1 0on2
+Name: Mc0_2_a3
+pre: topc0 topa3 0on2
+add: topc2 topa0 0on3
+delete: topc0 topa3 0on2
+Name: Mc0_2_aa
+pre: topc0 topaa 0on2
+add: topc2 topa0 0ona
+delete: topc0 topaa 0on2
+Name: Mc0_3_a1
+pre: topc0 topa1 0on3
+add: topc3 topa0 0on1
+delete: topc0 topa1 0on3
+Name: Mc0_3_a2
+pre: topc0 topa2 0on3
+add: topc3 topa0 0on2
+delete: topc0 topa2 0on3
+Name: Mc0_3_aa
+pre: topc0 topaa 0on3
+add: topc3 topa0 0ona
+delete: topc0 topaa 0on3
+Name: Mc0_c_a1
+pre: topc0 topa1 0onc
+add: topcc topa0 0on1
+delete: topc0 topa1 0onc
+Name: Mc0_c_a2
+pre: topc0 topa2 0onc
+add: topcc topa0 0on2
+delete: topc0 topa2 0onc
+Name: Mc0_c_a3
+pre: topc0 topa3 0onc
+add: topcc topa0 0on3
+delete: topc0 topa3 0onc
+Name: Mc0_c_aa
+pre: topc0 topaa 0onc
+add: topcc topa0 0ona
+delete: topc0 topaa 0onc
+Name: Mc1_2_a3
+pre: topc1 topa3 1on2
+add: topc2 topa1 1on3
+delete: topc1 topa3 1on2
+Name: Mc1_2_aa
+pre: topc1 topaa 1on2
+add: topc2 topa1 1ona
+delete: topc1 topaa 1on2
+Name: Mc1_3_a2
+pre: topc1 topa2 1on3
+add: topc3 topa1 1on2
+delete: topc1 topa2 1on3
+Name: Mc1_3_aa
+pre: topc1 topaa 1on3
+add: topc3 topa1 1ona
+delete: topc1 topaa 1on3
+Name: Mc1_c_a2
+pre: topc1 topa2 1onc
+add: topcc topa1 1on2
+delete: topc1 topa2 1onc
+Name: Mc1_c_a3
+pre: topc1 topa3 1onc
+add: topcc topa1 1on3
+delete: topc1 topa3 1onc
+Name: Mc1_c_aa
+pre: topc1 topaa 1onc
+add: topcc topa1 1ona
+delete: topc1 topaa 1onc
+Name: Mc2_3_aa
+pre: topc2 topaa 2on3
+add: topc3 topa2 2ona
+delete: topc2 topaa 2on3
+Name: Mc2_c_a3
+pre: topc2 topa3 2onc
+add: topcc topa2 2on3
+delete: topc2 topa3 2onc
+Name: Mc2_c_aa
+pre: topc2 topaa 2onc
+add: topcc topa2 2ona
+delete: topc2 topaa 2onc
+Name: Mc3_c_aa
+pre: topc3 topaa 3onc
+add: topcc topa3 3ona
+delete: topc3 topaa 3onc
+Name: Mc0_1_b2
+pre: topc0 topb2 0on1
+add: topc1 topb0 0on2
+delete: topc0 topb2 0on1
+Name: Mc0_1_b3
+pre: topc0 topb3 0on1
+add: topc1 topb0 0on3
+delete: topc0 topb3 0on1
+Name: Mc0_1_bb
+pre: topc0 topbb 0on1
+add: topc1 topb0 0onb
+delete: topc0 topbb 0on1
+Name: Mc0_2_b1
+pre: topc0 topb1 0on2
+add: topc2 topb0 0on1
+delete: topc0 topb1 0on2
+Name: Mc0_2_b3
+pre: topc0 topb3 0on2
+add: topc2 topb0 0on3
+delete: topc0 topb3 0on2
+Name: Mc0_2_bb
+pre: topc0 topbb 0on2
+add: topc2 topb0 0onb
+delete: topc0 topbb 0on2
+Name: Mc0_3_b1
+pre: topc0 topb1 0on3
+add: topc3 topb0 0on1
+delete: topc0 topb1 0on3
+Name: Mc0_3_b2
+pre: topc0 topb2 0on3
+add: topc3 topb0 0on2
+delete: topc0 topb2 0on3
+Name: Mc0_3_bb
+pre: topc0 topbb 0on3
+add: topc3 topb0 0onb
+delete: topc0 topbb 0on3
+Name: Mc0_c_b1
+pre: topc0 topb1 0onc
+add: topcc topb0 0on1
+delete: topc0 topb1 0onc
+Name: Mc0_c_b2
+pre: topc0 topb2 0onc
+add: topcc topb0 0on2
+delete: topc0 topb2 0onc
+Name: Mc0_c_b3
+pre: topc0 topb3 0onc
+add: topcc topb0 0on3
+delete: topc0 topb3 0onc
+Name: Mc0_c_bb
+pre: topc0 topbb 0onc
+add: topcc topb0 0onb
+delete: topc0 topbb 0onc
+Name: Mc1_2_b3
+pre: topc1 topb3 1on2
+add: topc2 topb1 1on3
+delete: topc1 topb3 1on2
+Name: Mc1_2_bb
+pre: topc1 topbb 1on2
+add: topc2 topb1 1onb
+delete: topc1 topbb 1on2
+Name: Mc1_3_b2
+pre: topc1 topb2 1on3
+add: topc3 topb1 1on2
+delete: topc1 topb2 1on3
+Name: Mc1_3_bb
+pre: topc1 topbb 1on3
+add: topc3 topb1 1onb
+delete: topc1 topbb 1on3
+Name: Mc1_c_b2
+pre: topc1 topb2 1onc
+add: topcc topb1 1on2
+delete: topc1 topb2 1onc
+Name: Mc1_c_b3
+pre: topc1 topb3 1onc
+add: topcc topb1 1on3
+delete: topc1 topb3 1onc
+Name: Mc1_c_bb
+pre: topc1 topbb 1onc
+add: topcc topb1 1onb
+delete: topc1 topbb 1onc
+Name: Mc2_3_bb
+pre: topc2 topbb 2on3
+add: topc3 topb2 2onb
+delete: topc2 topbb 2on3
+Name: Mc2_c_b3
+pre: topc2 topb3 2onc
+add: topcc topb2 2on3
+delete: topc2 topb3 2onc
+Name: Mc2_c_bb
+pre: topc2 topbb 2onc
+add: topcc topb2 2onb
+delete: topc2 topbb 2onc
+Name: Mc3_c_bb
+pre: topc3 topbb 3onc
+add: topcc topb3 3onb
+delete: topc3 topbb 3onc

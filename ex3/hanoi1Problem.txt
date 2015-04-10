@@ -1,0 +1,2 @@
+Initial state: 0Ata 0OnFloor cl0 bEmpty cEmpty
+Goal state: 0Atc 0OnFloor cl0 bEmpty aEmpty

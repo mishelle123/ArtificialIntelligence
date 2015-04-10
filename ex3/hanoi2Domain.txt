@@ -1,0 +1,99 @@
+Propositions:
+0Ata 0Atb 0Atc 1Ata 1Atb 1Atc cl0 cl1 0On1 0OnFloor 1OnFloor aEmpty bEmpty cEmpty 
+Actions:
+Name: 0On1abFloor
+pre: 0On1 cl0 bEmpty 0Ata 1Ata
+add: 0OnFloor cl1 0Atb
+delete: 0On1 bEmpty 0Ata
+Name: 0OnFloorab1
+pre: 0OnFloor cl0 cl1 0Ata 1Atb
+add: 0On1 aEmpty 0Atb
+delete: 0OnFloor cl1 0Ata
+Name: 0OnFloorabFloor
+pre: 0OnFloor cl0 bEmpty 0Ata
+add: aEmpty 0Atb
+delete: bEmpty 0Ata
+Name: 1OnFloorabFloor
+pre: 1OnFloor cl1 bEmpty 1Ata
+add: aEmpty 1Atb
+delete: bEmpty 1Ata
+Name: 0On1acFloor
+pre: 0On1 cl0 cEmpty 0Ata 1Ata
+add: 0OnFloor cl1 0Atc
+delete: 0On1 cEmpty 0Ata
+Name: 0OnFloorac1
+pre: 0OnFloor cl0 cl1 0Ata 1Atc
+add: 0On1 aEmpty 0Atc
+delete: 0OnFloor cl1 0Ata
+Name: 0OnFlooracFloor
+pre: 0OnFloor cl0 cEmpty 0Ata
+add: aEmpty 0Atc
+delete: cEmpty 0Ata
+Name: 1OnFlooracFloor
+pre: 1OnFloor cl1 cEmpty 1Ata
+add: aEmpty 1Atc
+delete: cEmpty 1Ata
+Name: 0On1baFloor
+pre: 0On1 cl0 aEmpty 0Atb 1Atb
+add: 0OnFloor cl1 0Ata
+delete: 0On1 aEmpty 0Atb
+Name: 0OnFloorba1
+pre: 0OnFloor cl0 cl1 0Atb 1Ata
+add: 0On1 bEmpty 0Ata
+delete: 0OnFloor cl1 0Atb
+Name: 0OnFloorbaFloor
+pre: 0OnFloor cl0 aEmpty 0Atb
+add: bEmpty 0Ata
+delete: aEmpty 0Atb
+Name: 1OnFloorbaFloor
+pre: 1OnFloor cl1 aEmpty 1Atb
+add: bEmpty 1Ata
+delete: aEmpty 1Atb
+Name: 0On1bcFloor
+pre: 0On1 cl0 cEmpty 0Atb 1Atb
+add: 0OnFloor cl1 0Atc
+delete: 0On1 cEmpty 0Atb
+Name: 0OnFloorbc1
+pre: 0OnFloor cl0 cl1 0Atb 1Atc
+add: 0On1 bEmpty 0Atc
+delete: 0OnFloor cl1 0Atb
+Name: 0OnFloorbcFloor
+pre: 0OnFloor cl0 cEmpty 0Atb
+add: bEmpty 0Atc
+delete: cEmpty 0Atb
+Name: 1OnFloorbcFloor
+pre: 1OnFloor cl1 cEmpty 1Atb
+add: bEmpty 1Atc
+delete: cEmpty 1Atb
+Name: 0On1caFloor
+pre: 0On1 cl0 aEmpty 0Atc 1Atc
+add: 0OnFloor cl1 0Ata
+delete: 0On1 aEmpty 0Atc
+Name: 0OnFloorca1
+pre: 0OnFloor cl0 cl1 0Atc 1Ata
+add: 0On1 cEmpty 0Ata
+delete: 0OnFloor cl1 0Atc
+Name: 0OnFloorcaFloor
+pre: 0OnFloor cl0 aEmpty 0Atc
+add: cEmpty 0Ata
+delete: aEmpty 0Atc
+Name: 1OnFloorcaFloor
+pre: 1OnFloor cl1 aEmpty 1Atc
+add: cEmpty 1Ata
+delete: aEmpty 1Atc
+Name: 0On1cbFloor
+pre: 0On1 cl0 bEmpty 0Atc 1Atc
+add: 0OnFloor cl1 0Atb
+delete: 0On1 bEmpty 0Atc
+Name: 0OnFloorcb1
+pre: 0OnFloor cl0 cl1 0Atc 1Atb
+add: 0On1 cEmpty 0Atb
+delete: 0OnFloor cl1 0Atc
+Name: 0OnFloorcbFloor
+pre: 0OnFloor cl0 bEmpty 0Atc
+add: cEmpty 0Atb
+delete: bEmpty 0Atc
+Name: 1OnFloorcbFloor
+pre: 1OnFloor cl1 bEmpty 1Atc
+add: cEmpty 1Atb
+delete: bEmpty 1Atc

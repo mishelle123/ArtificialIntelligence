@@ -1,0 +1,2 @@
+Initial state: 0Ata 0On1 1Ata 1On2 2Ata 2On3 3Ata 3On4 4Ata 4OnFloor cl0 bEmpty cEmpty
+Goal state: 0Atc 0On1 1Atc 1On2 2Atc 2On3 3Atc 3On4 4Atc 4OnFloor cl0 bEmpty aEmpty
